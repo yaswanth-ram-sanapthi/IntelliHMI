@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+/* ---------- Global Reset ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ---------- Root ---------- */
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+/* ---------- Body ---------- */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #0f172a;
+
+  color: #f8fafc;
+
+  font-family: Inter, Arial, Helvetica, sans-serif;
+
+  line-height: 1.5;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+}
