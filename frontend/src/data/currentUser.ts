@@ -24,7 +24,7 @@ export const currentUser: CurrentUser = {
 
   email: "yaswanth@intellihmi.com",
 
-role: "operator",
+role: "developer",
 
   department: "Software Development",
 
